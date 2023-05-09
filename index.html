@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="module" src="js/main.js" defer></script>
+</head>
+<style>
+    .element1 {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        position: relative;
+    }
+    ul {
+       width: 80%;
+    }
+    #fruits li{
+        font-size: 20px;
+        background-color: antiquewhite;
+        padding: 10px;
+        margin: 10px;
+        list-style: none;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+    }
+    li span {
+        color:red;
+        font-size:20px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    h1 {
+        font-size: 30px;
+        margin: 20px;
+        text-align: center;
+
+    }
+    .container{
+        width: 50%;
+        margin: auto;
+        background-color: blueviolet;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    input{
+        border: none;
+        outline: none;
+        padding: 20px;
+        width: 80%;
+        margin: auto;
+        border-radius: 0.5em;
+    }
+    form{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+
+    }
+    label{
+        font-size: 20px;
+        margin-left: 35px;
+    }
+    #submit{
+        margin-top: 20px;
+        width: 200px;
+        cursor:pointer;
+    }
+</style>
+<body>
+<!--<p>hello</p>-->
+<div class="container">
+    <h1>Créer votre todo list</h1>
+    <form>
+        <label for="todo">Ajouter un todo</label> <br>
+        <input type="text" name="todo" id="todo"   >
+        <input type="submit" value="Envoyer" id="submit">
+    </form>
+    <ul id="fruits"></ul>
+</div>
+<!--<ul id="legumes">-->
+<!--    <li>Choux</li>-->
+<!--    <li>Poivrons</li>-->
+<!--</ul>-->
+<!--<a href="https://google.com">lien de google</a>
+<img src="https://f.hellowork.com/blogdumoderateur/2013/10/google-logo.png" alt="">-->
+<!--
+<button >Ajouter un item</button>
+-->
+<!--<div class="element1">
+
+</div>-->
+</body>
+</html>
